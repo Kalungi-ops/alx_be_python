@@ -1,5 +1,12 @@
+# simple_interest.py
+
+# Define variables
 principal = 1000
 rate = 0.05
 time = 3
-interest = (principal * rate * time)
-print(f"The simple inteerest is: {interest}")
+
+# Calculate simple interest
+interest = principal * rate * time
+
+# Print the result
+print("The simple interest is:", interest)
