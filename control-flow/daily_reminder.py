@@ -18,4 +18,4 @@ if Time_Bound == "yes":
 else:
     time = "Consider completing it when you have free time."
 
-print(f"{reminder}. {time}")
+print(f"Reminder: {reminder}, {time}")
