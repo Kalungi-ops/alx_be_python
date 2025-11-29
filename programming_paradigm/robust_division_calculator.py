@@ -6,10 +6,10 @@ def safe_divide(numerator, denominator):
     
 
         result = numerator / denominator
-        return result
+        return f"The result of the division is {result}"
     
     except ValueError:
-        return "Input not a number"
+        return "Error: Please enter numeric values only."
 
     except ZeroDivisionError:
-        return "Cannot Divide number by 0"
+        return "Error: Cannot divide by zero."
