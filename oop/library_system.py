@@ -31,6 +31,5 @@ class Library:
         print(f"Added {book}")
     
     def list_books(self):
-        print("\nLibrary Collection:")
         for book in self.books:
-            print(f"- {book}")
+            print(f"{book}")
